@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.card-img{
+  height: 180px;
+}
+.bt-text{
+
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+  cursive;
+  float: left;
+}
+ .button{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+  cursive;
+  float: right;
+
+}
+  /* Change the link color to #111 (black) on hover */
+.title{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+  cursive;
+
+
+}
+.card-content{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+  cursive;
+
+
+}
+
+.container{
+  max-width: 1190px;
+  margin: 0 auto;
+}
+.products-con{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  grid-gap: 0.5rem;
+}
+
+.products-item{
+  outline: 1px solid white;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.products-item:hover{
+  border:2px solid orange
+}
+
+.bt-text a{
+  text-decoration: none;
+ 
+}
+.cross{
+  color: red;
+  font-size: 30px;
+}

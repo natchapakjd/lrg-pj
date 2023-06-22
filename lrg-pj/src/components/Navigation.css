@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.nav img{
+
+  height: 90px;
+  width: 90px;
+  margin-top: 5px;
+  
+}
+.home-logo{
+  color: black;
+}
+.book-logo{
+  color: black;
+}
+.credit-logo{
+  color: black;
+}
+.shop-logo{
+  color: black;
+}
+.me-auto .text{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+  cursive;
+  padding: 16px 14px;
+
+}
+  /* Change the link color to #111 (black) on hover */

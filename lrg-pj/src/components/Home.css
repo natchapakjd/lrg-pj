@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.container{
+    max-width: 1190px;
+    margin: 0 auto;
+  }
+.banner img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.banner:hover{
+    border: 2px solid orange;
+    
+}
+.bell-logo{
+    margin-top: 45px;
+    
+}
+.catagories .cat-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,579px));
+    grid-gap:0.5rem;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;   
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+.catagories img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.catagories  p{
+    margin-top: 90px;
+    font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+    cursive;
+    color: black;
+    font-size: 25px;    
+}
+.catagories .cat-content .yellow-sign:hover{
+    border:2px solid orange
+}
+.catagories .cat-content .kai-ruby:hover{
+    border:2px solid orange
+}
+
+
+.yt-logo{
+    color: red;
+}
+.fb-logo{
+    color: blue;
+}
+@keyframes slide-in {
+    0% {
+      transform: translateX(-95%);
+    }
+    100% {
+      transform: translateX(5%);
+    }
+  }
+.message-con p{
+    
+    font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+    cursive;
+    color: black;
+    font-size: 25px;            
+}
+.message-con{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.message-con .mes-details{
+    margin-top: 10px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.message-con .mes-details .mes-left{
+    font-size: 25px;
+}.message-con .mes-details .mes-right{
+    font-size: 25px;
+    animation: slide-in 15s ease-in-out infinite; /* ปรับค่าตามต้องการ */
+}
+
+.reccom-container .reccom-text p{
+    font-family: 'Itim', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,
+    cursive;
+    color: black;
+    font-size: 25px;
+   
+}
+.reccom-container .reccom-content{
+   margin-left: 0;
+}
